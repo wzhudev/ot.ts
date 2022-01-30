@@ -206,7 +206,3 @@ export abstract class Client {
   abstract sendOperation(revision: number, operation: TextOperation): void;
   abstract applyOperation(operation: TextOperation): void;
 }
-
-enum ClientStateEnum {
-  SYNCHRONIZED,
-}
