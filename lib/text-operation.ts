@@ -2,18 +2,18 @@
  * Insert ops: Insert a given string at the current cursor position.
  * Represented by strings.
  */
-type INSERT_OP = string;
+export type INSERT_OP = string;
 
 /**
  * Retain ops: Advance the cursor position by a given number of characters.
  * Represented by positive ints.
  */
-type RETAIN_OP = number;
+export type RETAIN_OP = number;
 
 /**
  * Delete ops: Delete the next n characters. Represented by negative ints.
  */
-type DELETE_OP = number;
+export type DELETE_OP = number;
 
 /**
  * Operation are essentially lists of ops. There are three types of ops:
